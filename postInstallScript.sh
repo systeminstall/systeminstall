@@ -30,4 +30,4 @@ cat ~/systeminstall/terminator > ~/.config/terminator/config
 
 #Installing all packages ##########################################################
 
-yay -Syyu --noconfirm etcher-bin protonvpn-gui rustdesk-bin syncthing-gtk visual-studio-code-bin burpsuite && sudo pacman -S --noconfirm brasero chromium cmake firefox-developer-edition gnome-disk-utility gnu-netcat gparted kate keepassxc libreoffice-still maim neofetch neovim nmap p7zip python-pip ripgrep sxiv syncthing terminator torbrowser-launcher ufw unzip vim virtualbox wget whois xclip zenity zsh 
+yay -Syyu --noconfirm etcher-bin protonvpn-gui rustdesk-bin syncthing-gtk visual-studio-code-bin burpsuite && sudo pacman -S --noconfirm ttf-hack brasero chromium cmake firefox-developer-edition gnome-disk-utility gnu-netcat gparted kate keepassxc libreoffice-still maim neofetch neovim nmap p7zip python-pip ripgrep sxiv syncthing terminator torbrowser-launcher ufw unzip vim virtualbox wget whois xclip zenity zsh
