@@ -5,8 +5,8 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 # Polkit
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
-bspc monitor -d DP-1 I II III IV V
-bspc monitor -d DP-2 VI VII VIII IX X
+bspc monitor DP-1 -d I II III IV V
+bspc monitor DP-2 -d VI VII VIII IX X
 
 bspc config border_width         2
 bspc config window_gap          12
