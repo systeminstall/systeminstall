@@ -41,8 +41,6 @@ bash ~/.config/polybar/launch.sh --forest &
 # Notifications
 /usr/bin/dunst &
 
-# Wallpaper
-nitrogen --restore &
 # Dex
 dex -a -s /etc/xdg/autostart/:~/.config/autostart/  &
 # Picom
@@ -55,3 +53,5 @@ xsetroot -cursor_name left_ptr &
 
 # Low battery notifier
 ~/.config/bspwm/scripts/low_bat_notifier.sh
+
+feh --bg-scale ~/Documents/wallpaper.jpg
