@@ -8,7 +8,7 @@ cat ~/systeminstall/zshrc > ~/.zshrc
 
 # Writing polybar config ###############################
 
-sudo rm -rf ~/.config/polybar/ && cp ~/systeminstall/polybar > ~/.config/
+sudo rm -rf ~/.config/polybar/ && cp ~/systeminstall/polybar ~/.config/ -r
 
 
 # Writing bspwmrc ##############################################
