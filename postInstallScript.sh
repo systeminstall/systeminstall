@@ -47,3 +47,7 @@ sudo mkdir -p /usr/share/zsh/plugins && sudo mkdir -p /usr/share/zsh/plugins/zsh
 # Disable endeavour pop Up shit ########
 
 eos-welcome --disable
+
+# Set up start up programs
+
+sudo systemctl enable bluetooth
