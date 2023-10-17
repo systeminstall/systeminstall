@@ -47,3 +47,5 @@ xsetroot -cursor_name left_ptr &
 
 feh --bg-scale ~/Documents/wallpaper.jpg &
 
+wmname LG3D
+
